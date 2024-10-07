@@ -81,12 +81,6 @@ function Tour() {
 
     return (
         <>
-            <Image
-                src="https://drive.google.com/uc?export=preview&id=1MQzandsgZSfY7n5a7mv71SfCOzsJEZyf"
-                alt="pano img"
-                width={500}
-                height={500}
-            />
             <div>
                 pitch: {pitch}, yaw: {yaw}
             </div>
