@@ -3,6 +3,7 @@
 import { Pannellum } from 'pannellum-react'
 import * as React from 'react'
 import scenesArray from './ScenesArray'
+import Image from 'next/image'
 
 /**
  * Tour component isn't currently supported
@@ -80,11 +81,19 @@ function Tour() {
 
     return (
         <>
+            <Image
+                src="https://drive.google.com/uc?export=preview&id=1MQzandsgZSfY7n5a7mv71SfCOzsJEZyf"
+                alt="pano img"
+                width={500}
+                height={500}
+            />
             <div>
                 pitch: {pitch}, yaw: {yaw}
             </div>
 
+            {/* Working imgur link:  */}
             <Pannellum
+                crossOrigin="false"
                 ref={panImage}
                 width="100%"
                 height="500px"

@@ -2,7 +2,7 @@ const scenesArray = {
     lobby: {
         sceneName: 'lobby',
         slug: 'lobby',
-        scenePanoImg: './images/lobby.jpeg',
+        scenePanoImg: './images/test.jpg',
         initPitch: 0.9281912889787105,
         initYaw: 126.87471048680484,
         hotSpotsArr: [
@@ -66,7 +66,6 @@ const scenesArray = {
             },
         ],
     },
-
     control: {
         sceneName: 'studioAcontrol',
         slug: 'control',
